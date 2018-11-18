@@ -5,7 +5,7 @@ PlayerName = input("Please Enter Your Name")
 PlayerName2 = input("Please Confirm Your Name")
 
 if PlayerName == PlayerName2:
-    print("Welcome To The Guessing Game", PlayerName2)
+    print("Welcome To The Song Name Changer", PlayerName2)
 else:
     print("Please Re-Enter Your Name")
     PlayerName = input("Please Enter Your Name")
