@@ -26,20 +26,6 @@ with open(filename, 'r') as filehandle:
             songtitle = remove_lower(songtitle1)
             artist = fields[1]
             upper = songtitle
-            question = upper + " by" + artist
-            print(question), (question).__len__()
-
-            answer = input("Please Guess the Song Title")
-            if answer == songtitle1:
-                score = score + 3
-                print(PlayerName2, "Your Score is", score)
-            else:
-                print("Please Guess Again")
-                print(question)
-                answer1 = input("Please Guess the Song Title")
-                if answer1 == upper:
-                    score = score + 1
-                else:
-                    print("Wrong Answer")
-                    print(PlayerName2, "Your Score is", score)
+            answer = upper + " by" + artist
+            print(answer)
         current_line += 1
