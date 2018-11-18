@@ -11,8 +11,6 @@ else:
     PlayerName = input("Please Enter Your Name")
     PlayerName2 = input("Please Confirm Your Name")
 
-score = 0
-
 remove_lower = lambda text: re.sub('[a-z]', '_', text)
 
 filename = "songs.txt"
