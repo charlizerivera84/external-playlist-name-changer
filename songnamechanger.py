@@ -1,16 +1,6 @@
 import random
 import re
 
-PlayerName = input("Please Enter Your Name")
-PlayerName2 = input("Please Confirm Your Name")
-
-if PlayerName == PlayerName2:
-    print("Welcome To The Song Name Changer", PlayerName2)
-else:
-    print("Please Re-Enter Your Name")
-    PlayerName = input("Please Enter Your Name")
-    PlayerName2 = input("Please Confirm Your Name")
-
 remove_lower = lambda text: re.sub('[a-z]', '_', text)
 
 filename = "songs.txt"
