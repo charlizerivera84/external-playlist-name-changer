@@ -15,7 +15,7 @@ with open(filename, 'r') as filehandle:
             songtitle1 = fields[0]
             songtitle = remove_lower(songtitle1)
             artist = fields[1]
-            upper = songtitle
-            answer = upper + " by" + artist
-            print(answer)
+            uppercase = songtitle
+            new_song_title = uppercase + " by" + artist
+            print(new_song_title)
         current_line += 1
