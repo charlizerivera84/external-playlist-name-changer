@@ -9,4 +9,4 @@ Changes, Tupac
 Hit Em Up, Tupac
 Hail Mary, Tupac
 
-## you can change the ',' in the .py file to ';'
+# you can change the ',' in the .py file to ';'
